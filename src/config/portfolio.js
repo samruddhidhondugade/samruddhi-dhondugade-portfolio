@@ -5,9 +5,9 @@ export const portfolioConfig = {
   // Personal Information
   personal: {
     name: "Samruddhi Dhondugade",
-    role: "Full Stack Developer (Java | Spring Boot | Angular | React)",
+    role: "Full Stack Developer (Java | Spring Boot | React)",
   
-    tagline: "I build clean, scalable and user-focused web applications.",
+    tagline: "Code. Collaborate. Create. Deliver scalable solutions with a strong engineering mindset!",
     email: "samruddhidhondugade@gmail.com",
     location: "India",
     bio: "I am a dedicated Software Engineer who enjoys learning, building, and continuously improving. I love working in collaborative teams where ideas are shared, challenges are discussed, and solutions are built together. I adapt quickly to new environments, stay curious about new technologies, and always aim to deliver clean, reliable, and user-focused software 🚀",

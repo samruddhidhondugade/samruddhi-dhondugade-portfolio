@@ -39,31 +39,30 @@ const About = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid md:grid-cols-2 gap-12 items-center"
         >
           {/* Photo Card */}
-          <motion.div variants={itemVariants} className="order-2 md:order-1">
-            <div className="relative">
-              {/* Rounded Background Shape */}
-              <div className="absolute inset-0 bg-gradient-to-br from-brand-mustard/30 to-brand-leafGreen/30 rounded-[3rem] transform rotate-6"></div>
+          {/* <motion.div variants={itemVariants} className="order-2 md:order-1 items-center justify-center">
+            <div className="items-center justify-center">
+              Rounded Background Shape */}
+              {/* <div className="absolute inset-0 bg-gradient-to-br from-brand-mustard/30 to-brand-leafGreen/30 rounded-[3rem] transform rotate-6"></div> */}
               
               {/* Image Container */}
-              <div className="relative bg-white dark:bg-gray-800 rounded-[3rem] p-8 shadow-2xl">
-                <div className="aspect-square bg-gradient-to-br from-brand-deepGreen to-brand-leafGreen rounded-[2.5rem] flex items-center justify-center">
-                  <div className="text-white text-6xl font-bold">
+               {/* <div className="relative bg-white dark:bg-gray-800 rounded-[3rem] p-4 shadow-2xl"> */}
+                {/*<div className="flex items-center justify-center"> 
+                  <div className="text-white text-6xl font-bold ">
                     {portfolioConfig.personal.name
                       .split(' ')
                       .map((n) => n[0])
                       .join('')}
                   </div>
-                </div>
-              </div>
+                 </div>
+              </div> */}
 
               {/* Decorative elements */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 bg-brand-mustard/30 rounded-full blur-2xl opacity-50"></div>
-              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-brand-leafGreen/30 rounded-full blur-2xl opacity-50"></div>
+              {/* <div className="absolute -top-4 -right-4 w-2 h-2 bg-brand-mustard/30 rounded-full blur-2xl opacity-50"></div>
+              <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-brand-leafGreen/30 rounded-full blur-2xl opacity-50"></div> 
             </div>
-          </motion.div>
+          </motion.div>*/}
 
           {/* Content */}
           <motion.div variants={itemVariants} className="order-1 md:order-2">
@@ -86,7 +85,7 @@ const About = () => {
                   <FaEnvelope className="text-brand-mustard" />
                   <span className="hidden sm:inline">{portfolioConfig.personal.email}</span>
                   <span className="sm:hidden">Email</span>
-                </div>
+                </div> 
               </div>
             </Card>
           </motion.div>

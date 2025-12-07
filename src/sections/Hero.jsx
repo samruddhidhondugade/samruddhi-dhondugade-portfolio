@@ -116,14 +116,15 @@ const Hero = () => {
               
               {/* Image Container */}
               <div className="relative bg-white dark:bg-gray-800 rounded-[3rem] p-4 sm:p-8 shadow-2xl">
-                <div className="aspect-square bg-gradient-to-br from-brand-deepGreen to-brand-leafGreen rounded-[2.5rem] flex items-center justify-center">
-                  <div className="text-white text-6xl font-bold">
-                    {portfolioConfig.personal.name
-                      .split(' ')
-                      .map((n) => n[0])
-                      .join('')}
-                  </div>
-                </div>
+              <div className="aspect-square rounded-[2.5rem] overflow-hidden border-4 border-white dark:border-gray-700 shadow-lg">
+
+  <img
+    src="/Images/samruddhipic.jpg" // <-- Update this path to your actual picture location
+    alt="Profile"
+    className="w-full h-full object-cover"
+    loading="eager"
+  />
+</div>
               </div>
 
               {/* Floating Badge */}
